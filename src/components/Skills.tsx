@@ -1,5 +1,4 @@
 import skillsData from '@/data/skills.json';
-import Image from 'next/image';
 
 export default function Skills() {
     return (
@@ -16,11 +15,11 @@ export default function Skills() {
                             className="group flex flex-col items-center justify-center p-6 bg-[var(--card-bg)] rounded-xl glow-on-hover-cyan w-32 h-32 md:w-40 md:h-40 cursor-pointer"
                         >
                             <div className="w-16 h-16 relative mb-4 transition-all duration-300">
-                                <Image
+                                {/* Standard img tag bypasses Next.js external domain restrictions */}
+                                <img
                                     src={skill.logo}
                                     alt={`${skill.name} logo`}
-                                    fill
-                                    className="object-contain"
+                                    className="w-full h-full object-contain"
                                 />
                             </div>
                             <span className="text-sm font-medium text-[var(--text-secondary)] group-hover:text-[var(--accent-cyan)] transition-colors duration-300">
