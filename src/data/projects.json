@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Homosapiens",
+    "thumbnail": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&q=80&w=800",
+    "description": "A web-based platform designed to facilitate and manage blood and organ donation processes efficiently.",
+    "url": "https://github.com/your-username/homosapiens"
+  },
+  {
+    "id": 2,
+    "title": "Customer Triage Engine",
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800",
+    "description": "An intelligent AI system built to categorize and route customer support tickets automatically using NLP.(NOTE: For OUTPUT wait for 50 seconds because of Render activation)",
+    "url": "https://customer-triage-engine.streamlit.app/"
+  },
+  {
+    "id": 3,
+    "title": "Predictive Maintenance System (For output wait for 50 seconds)",
+    "thumbnail": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800",
+    "description": "Engineered an end-to-end ML system to predict equipment failure with 96.5% accuracy using real-time sensor data transformation pipelines.(NOTE: For OUTPUT wait for 50 seconds because of Render activation)",
+    "url": "https://predictive-maintenance-ui.vercel.app/"
+  }
+]

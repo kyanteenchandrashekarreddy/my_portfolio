@@ -1,26 +1,70 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --bg-color: #050505;
+  --text-primary: #ffffff;
+  --text-secondary: #a0aab2;
+  --accent-cyan: #00f0ff;
+  --accent-purple: #7000ff;
+  --glow-cyan: rgba(0, 240, 255, 0.6);
+  --glow-purple: rgba(112, 0, 255, 0.6);
+  --card-bg: #1a1a1a;
+  --border-color: #333;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: transparent;
+}
+
+/* Glow on Hover Logic */
+.glow-on-hover-cyan {
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.glow-on-hover-cyan:hover {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 20px var(--glow-cyan);
+  transform: translateY(-5px);
+}
+
+.glow-on-hover-purple {
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.glow-on-hover-purple:hover {
+  border-color: var(--accent-purple);
+  box-shadow: 0 0 20px var(--glow-purple);
+  transform: translateY(-5px);
+}
+
+/* Base button and link styles */
+.cyber-button {
+  background: transparent;
+  color: var(--accent-cyan);
+  border: 1px solid var(--accent-cyan);
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.cyber-button:hover {
+  background: var(--accent-cyan);
+  color: var(--bg-color);
+  box-shadow: 0 0 20px var(--accent-cyan);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }

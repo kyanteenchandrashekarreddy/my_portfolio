@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Python",
+        "logo": "https://cdn.simpleicons.org/python/3776AB"
+    },
+    {
+        "name": "FastAPI",
+        "logo": "https://cdn.simpleicons.org/fastapi/05998B"
+    },
+    {
+        "name": "React.js",
+        "logo": "https://cdn.simpleicons.org/react/61DAFB"
+    },
+    {
+        "name": "Tailwind CSS",
+        "logo": "https://cdn.simpleicons.org/tailwindcss/06B6D4"
+    },
+    {
+        "name": "n8n",
+        "logo": "https://cdn.simpleicons.org/n8n/FF6D5B"
+    },
+    {
+        "name": "Scikit-Learn",
+        "logo": "https://cdn.simpleicons.org/scikitlearn/F7931E"
+    },
+    {
+        "name": "Pandas",
+        "logo": "https://cdn.simpleicons.org/pandas/150458"
+    },
+    {
+        "name": "NumPy",
+        "logo": "https://cdn.simpleicons.org/numpy/013243"
+    },
+    {
+        "name": "MySQL",
+        "logo": "https://cdn.simpleicons.org/mysql/4479A1"
+    },
+    {
+        "name": "SQLite",
+        "logo": "https://cdn.simpleicons.org/sqlite/003B57"
+    },
+    {
+        "name": "Docker",
+        "logo": "https://cdn.simpleicons.org/docker/2496ED"
+    },
+    {
+        "name": "Figma",
+        "logo": "https://cdn.simpleicons.org/figma/F24E1E"
+    },
+    {
+        "name": "TypeScript",
+        "logo": "https://cdn.simpleicons.org/typescript/3178C6"
+    },
+    {
+        "name": "Git",
+        "logo": "https://cdn.simpleicons.org/git/F05032"
+    },
+    {
+        "name": "Next.js",
+        "logo": "https://cdn.simpleicons.org/nextdotjs/white"
+    }
+]
