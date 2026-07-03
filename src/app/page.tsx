@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
+import ApiIntegrations from '@/components/ApiIntegrations';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import RobotHook from '@/components/RobotHook';
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
+      <ApiIntegrations />
       <Projects />
       <Contact />
       <RobotHook />

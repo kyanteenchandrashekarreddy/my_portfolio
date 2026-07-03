@@ -3,8 +3,16 @@ import profileData from '@/data/profile.json';
 export default function Hero() {
     return (
         <section id="home" className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
-            {/* Background Cyber Element */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[var(--accent-purple)] rounded-full blur-[150px] opacity-10 pointer-events-none"></div>
+            {/* 3D Futuristic Video Background */}
+            <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none opacity-40">
+                <iframe
+                    src="https://www.youtube.com/embed/KEpB_Jg_4h8?autoplay=1&mute=1&controls=0&disablekb=1&fs=0&modestbranding=1&rel=0&loop=1&playlist=KEpB_Jg_4h8"
+                    className="w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.77vh] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+                    allow="autoplay; encrypted-media"
+                />
+            </div>
+            {/* Gradient Overlay for readability */}
+            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#050505]/80 via-[#050505]/60 to-[#050505] -z-10"></div>
 
             <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
 

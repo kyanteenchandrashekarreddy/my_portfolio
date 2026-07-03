@@ -6,7 +6,7 @@ export default function Projects() {
         <section id="projects" className="py-24 relative">
             <div className="container mx-auto px-6">
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white">
-                    EXECUTED <span className="text-[var(--accent-cyan)]">DIRECTIVES</span>_
+                    <span className="text-[var(--accent-cyan)]">EXPLORE MY PROJECTS</span>_
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

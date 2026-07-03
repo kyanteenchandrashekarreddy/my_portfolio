@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Gemini",
+        "logo": "https://cdn.simpleicons.org/googlegemini/8E75B2"
+    },
+    {
+        "name": "Groq",
+        "logo": "https://api.iconify.design/lucide/zap.svg?color=%23F55036"
+    },
+    {
+        "name": "OpenRouter",
+        "logo": "https://api.iconify.design/mingcute/ai-fill.svg?color=%23ffffff"
+    },
+    {
+        "name": "HuggingFace",
+        "logo": "https://cdn.simpleicons.org/huggingface/FFD21E"
+    },
+    {
+        "name": "Hume AI",
+        "logo": "https://api.iconify.design/carbon/machine-learning-model.svg?color=%23ffffff"
+    },
+    {
+        "name": "Fal.ai",
+        "logo": "https://api.iconify.design/lucide/wand-2.svg?color=%23ffffff"
+    },
+    {
+        "name": "MiniMax Hailuo",
+        "logo": "https://api.iconify.design/material-symbols/smart-toy-outline.svg?color=%23ffffff"
+    },
+    {
+        "name": "Phyllo",
+        "logo": "https://api.iconify.design/mdi/leaf.svg?color=%2300ff00"
+    },
+    {
+        "name": "Meta",
+        "logo": "https://cdn.simpleicons.org/meta/046A38"
+    }
+]
